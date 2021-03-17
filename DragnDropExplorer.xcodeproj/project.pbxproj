@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		1844C9A325FB156F00FD3477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844C9A225FB156F00FD3477 /* AppDelegate.swift */; };
 		1844C9A525FB156F00FD3477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844C9A425FB156F00FD3477 /* SceneDelegate.swift */; };
-		1844C9A725FB156F00FD3477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844C9A625FB156F00FD3477 /* ViewController.swift */; };
+		1844C9A725FB156F00FD3477 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844C9A625FB156F00FD3477 /* TableViewController.swift */; };
 		1844C9AA25FB156F00FD3477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844C9A825FB156F00FD3477 /* Main.storyboard */; };
 		1844C9AC25FB157200FD3477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1844C9AB25FB157200FD3477 /* Assets.xcassets */; };
 		1844C9AF25FB157200FD3477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844C9AD25FB157200FD3477 /* LaunchScreen.storyboard */; };
+		1844CB4D26001B9E00FD3477 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844CB4C26001B9E00FD3477 /* CollectionViewController.swift */; };
+		1844CB5E26015CAD00FD3477 /* SBCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844CB5D26015CAD00FD3477 /* SBCollectionViewController.swift */; };
+		1844CB64260189F900FD3477 /* DNDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844CB63260189F900FD3477 /* DNDTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1844C99F25FB156F00FD3477 /* drandroptableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = drandroptableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1844C99F25FB156F00FD3477 /* DragnDropExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragnDropExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1844C9A225FB156F00FD3477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1844C9A425FB156F00FD3477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1844C9A625FB156F00FD3477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1844C9A625FB156F00FD3477 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		1844C9A925FB156F00FD3477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1844C9AB25FB157200FD3477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1844C9AE25FB157200FD3477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1844C9B025FB157200FD3477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1844CB4C26001B9E00FD3477 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		1844CB5D26015CAD00FD3477 /* SBCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SBCollectionViewController.swift; sourceTree = "<group>"; };
+		1844CB63260189F900FD3477 /* DNDTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNDTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +54,7 @@
 		1844C9A025FB156F00FD3477 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1844C99F25FB156F00FD3477 /* drandroptableview.app */,
+				1844C99F25FB156F00FD3477 /* DragnDropExplorer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,7 +64,10 @@
 			children = (
 				1844C9A225FB156F00FD3477 /* AppDelegate.swift */,
 				1844C9A425FB156F00FD3477 /* SceneDelegate.swift */,
-				1844C9A625FB156F00FD3477 /* ViewController.swift */,
+				1844C9A625FB156F00FD3477 /* TableViewController.swift */,
+				1844CB63260189F900FD3477 /* DNDTableViewController.swift */,
+				1844CB5D26015CAD00FD3477 /* SBCollectionViewController.swift */,
+				1844CB4C26001B9E00FD3477 /* CollectionViewController.swift */,
 				1844C9A825FB156F00FD3477 /* Main.storyboard */,
 				1844C9AB25FB157200FD3477 /* Assets.xcassets */,
 				1844C9AD25FB157200FD3477 /* LaunchScreen.storyboard */,
@@ -70,9 +79,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1844C99E25FB156F00FD3477 /* drandroptableview */ = {
+		1844C99E25FB156F00FD3477 /* DragnDropExplorer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1844C9B325FB157200FD3477 /* Build configuration list for PBXNativeTarget "drandroptableview" */;
+			buildConfigurationList = 1844C9B325FB157200FD3477 /* Build configuration list for PBXNativeTarget "DragnDropExplorer" */;
 			buildPhases = (
 				1844C99B25FB156F00FD3477 /* Sources */,
 				1844C99C25FB156F00FD3477 /* Frameworks */,
@@ -82,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = drandroptableview;
+			name = DragnDropExplorer;
 			productName = drandroptableview;
-			productReference = 1844C99F25FB156F00FD3477 /* drandroptableview.app */;
+			productReference = 1844C99F25FB156F00FD3477 /* DragnDropExplorer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1844C99A25FB156F00FD3477 /* Build configuration list for PBXProject "drandroptableview" */;
+			buildConfigurationList = 1844C99A25FB156F00FD3477 /* Build configuration list for PBXProject "DragnDropExplorer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1844C99E25FB156F00FD3477 /* drandroptableview */,
+				1844C99E25FB156F00FD3477 /* DragnDropExplorer */,
 			);
 		};
 /* End PBXProject section */
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1844C9A725FB156F00FD3477 /* ViewController.swift in Sources */,
+				1844CB4D26001B9E00FD3477 /* CollectionViewController.swift in Sources */,
+				1844CB5E26015CAD00FD3477 /* SBCollectionViewController.swift in Sources */,
+				1844CB64260189F900FD3477 /* DNDTableViewController.swift in Sources */,
+				1844C9A725FB156F00FD3477 /* TableViewController.swift in Sources */,
 				1844C9A325FB156F00FD3477 /* AppDelegate.swift in Sources */,
 				1844C9A525FB156F00FD3477 /* SceneDelegate.swift in Sources */,
 			);
@@ -322,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1844C99A25FB156F00FD3477 /* Build configuration list for PBXProject "drandroptableview" */ = {
+		1844C99A25FB156F00FD3477 /* Build configuration list for PBXProject "DragnDropExplorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1844C9B125FB157200FD3477 /* Debug */,
@@ -331,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1844C9B325FB157200FD3477 /* Build configuration list for PBXNativeTarget "drandroptableview" */ = {
+		1844C9B325FB157200FD3477 /* Build configuration list for PBXNativeTarget "DragnDropExplorer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1844C9B425FB157200FD3477 /* Debug */,
